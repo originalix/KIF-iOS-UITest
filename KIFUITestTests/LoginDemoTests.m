@@ -39,7 +39,6 @@
 - (void)testMainTableView {
     [self testLoginSuccess];
     UITableView *tableView = (UITableView*)[tester waitForViewWithAccessibilityLabel:AccessibilityConstants.mainTableView];
-    NSInteger firstCount = [tableView numberOfRowsInSection:0];
     [tester swipeRowAtIndexPath:[NSIndexPath indexPathForRow:5 inSection:0] inTableView:tableView inDirection:KIFSwipeDirectionLeft];
     [tester tapViewWithAccessibilityLabel:@"删除"];
     NSError *err = nil;
