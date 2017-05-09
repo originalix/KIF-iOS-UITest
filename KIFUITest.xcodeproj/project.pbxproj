@@ -18,6 +18,8 @@
 		5662E5121EC1798700356183 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5662E5111EC1798700356183 /* LoginViewController.m */; };
 		5662E5151EC17B7800356183 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5662E5141EC17B7800356183 /* MainViewController.m */; };
 		5662E5171EC19ED300356183 /* LoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5662E5161EC19ED300356183 /* LoginTests.m */; };
+		5662E51A1EC1A33E00356183 /* UIView+AccessibilityForDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 5662E5191EC1A33E00356183 /* UIView+AccessibilityForDebug.m */; };
+		5662E51D1EC1A3C200356183 /* AccessibilityConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5662E51C1EC1A3C200356183 /* AccessibilityConstants.m */; };
 		EFE510A2642A39C25032DA5C /* Pods_KIFUITestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D95E9516D02E3B388219D04F /* Pods_KIFUITestTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +63,10 @@
 		5662E5131EC17B7800356183 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		5662E5141EC17B7800356183 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		5662E5161EC19ED300356183 /* LoginTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginTests.m; sourceTree = "<group>"; };
+		5662E5181EC1A33E00356183 /* UIView+AccessibilityForDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AccessibilityForDebug.h"; sourceTree = "<group>"; };
+		5662E5191EC1A33E00356183 /* UIView+AccessibilityForDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AccessibilityForDebug.m"; sourceTree = "<group>"; };
+		5662E51B1EC1A3C200356183 /* AccessibilityConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessibilityConstants.h; sourceTree = "<group>"; };
+		5662E51C1EC1A3C200356183 /* AccessibilityConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessibilityConstants.m; sourceTree = "<group>"; };
 		C3B6280DA556F6275295DDA0 /* Pods-KIFUITestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KIFUITestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KIFUITestTests/Pods-KIFUITestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D95E9516D02E3B388219D04F /* Pods_KIFUITestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KIFUITestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -94,6 +100,10 @@
 		12A7B9C993494F3C0782E977 /* KIFHelper */ = {
 			isa = PBXGroup;
 			children = (
+				5662E5181EC1A33E00356183 /* UIView+AccessibilityForDebug.h */,
+				5662E5191EC1A33E00356183 /* UIView+AccessibilityForDebug.m */,
+				5662E51B1EC1A3C200356183 /* AccessibilityConstants.h */,
+				5662E51C1EC1A3C200356183 /* AccessibilityConstants.m */,
 			);
 			path = KIFHelper;
 			sourceTree = "<group>";
@@ -373,6 +383,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5662E5121EC1798700356183 /* LoginViewController.m in Sources */,
+				5662E51D1EC1A3C200356183 /* AccessibilityConstants.m in Sources */,
+				5662E51A1EC1A33E00356183 /* UIView+AccessibilityForDebug.m in Sources */,
 				5662E4E51EC175B500356183 /* ViewController.m in Sources */,
 				5662E4E21EC175B500356183 /* AppDelegate.m in Sources */,
 				5662E5151EC17B7800356183 /* MainViewController.m in Sources */,

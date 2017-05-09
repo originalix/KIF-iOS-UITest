@@ -7,6 +7,8 @@
 //
 
 #import "MainViewController.h"
+#import "UIView+AccessibilityForDebug.h"
+#import "AccessibilityConstants.h"
 
 @interface MainViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -37,16 +39,14 @@
 
 - (void)initializeData {
     self.dataSource = [NSMutableArray array];
-    for (int i = 0; i < 10; i++) {
-        [self.dataSource addObject:[NSString stringWithFormat:@"%d", i]];
+    for (int i = 0;i < 10; i++) {
+        [self.dataSource addObject:[NSString stringWithFormat:@"第%d行",i+1]];
     }
 }
 
 - (void)addAccessibilityLabel {
-    self.tableView.isAccessibilityElement = YES;
-    self.tableView.accessibilityLabel = @"tableView";
-    self.view.isAccessibilityElement = YES;
-    self.view.accessibilityLabel = @"MainView";
+    [self.view setAccessibilityLabelForDebug:AccessibilityConstants.mainView];
+    [self.tableView setAccessibilityLabelForDebug:AccessibilityConstants.mainTableView];
 }
 
 #pragma mark - tableView delegate
@@ -56,8 +56,21 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
-    cell.textLabel.text = self.dataSource[indexPath.row];
+    cell.textLabel.text = [self.dataSource objectAtIndex:indexPath.row];
     return cell;
+}
+
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
+    return YES;
+}
+
+-(NSArray *)tableView:(UITableView *)tableView editActionsForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewRowAction *button = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleDestructive title:@"删除" handler:^(UITableViewRowAction *action, NSIndexPath *indexPath)
+                                    {
+                                        [self.dataSource removeObjectAtIndex:indexPath.row];
+                                        [tableView reloadData];
+                                    }];
+    return @[button];
 }
 
 @end
