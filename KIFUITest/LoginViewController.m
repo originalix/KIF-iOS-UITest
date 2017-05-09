@@ -7,6 +7,7 @@
 //
 
 #import "LoginViewController.h"
+#import "MainViewController.h"
 
 @interface LoginViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *loginTextField;
@@ -19,10 +20,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self addAccessibilityLabel];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+}
+
+- (void)addAccessibilityLabel {
+    self.loginTextField.isAccessibilityElement = YES;
+    self.loginTextField.accessibilityLabel = @"loginTextField";
+    self.passwordTextField.isAccessibilityElement = YES;
+    self.passwordTextField.accessibilityLabel = @"passwordTextField";
+    self.loginBtn.isAccessibilityElement = YES;
+    self.loginTextField.accessibilityLabel = @"loginBtn";
+}
+
+- (IBAction)loginAction:(id)sender {
+    MainViewController *mainVC = [[MainViewController alloc] init];
+    [self.navigationController pushViewController:mainVC animated:true];
 }
 
 @end

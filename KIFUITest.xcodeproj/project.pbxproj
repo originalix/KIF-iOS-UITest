@@ -16,6 +16,7 @@
 		5662E4F81EC175B600356183 /* KIFUITestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5662E4F71EC175B600356183 /* KIFUITestTests.m */; };
 		5662E5031EC175B600356183 /* KIFUITestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5662E5021EC175B600356183 /* KIFUITestUITests.m */; };
 		5662E5121EC1798700356183 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5662E5111EC1798700356183 /* LoginViewController.m */; };
+		5662E5151EC17B7800356183 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5662E5141EC17B7800356183 /* MainViewController.m */; };
 		EFE510A2642A39C25032DA5C /* Pods_KIFUITestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D95E9516D02E3B388219D04F /* Pods_KIFUITestTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,8 @@
 		5662E5041EC175B600356183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5662E5101EC1798700356183 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		5662E5111EC1798700356183 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		5662E5131EC17B7800356183 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5662E5141EC17B7800356183 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		C3B6280DA556F6275295DDA0 /* Pods-KIFUITestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KIFUITestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KIFUITestTests/Pods-KIFUITestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D95E9516D02E3B388219D04F /* Pods_KIFUITestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KIFUITestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -126,6 +129,8 @@
 				5662E4E41EC175B500356183 /* ViewController.m */,
 				5662E5101EC1798700356183 /* LoginViewController.h */,
 				5662E5111EC1798700356183 /* LoginViewController.m */,
+				5662E5131EC17B7800356183 /* MainViewController.h */,
+				5662E5141EC17B7800356183 /* MainViewController.m */,
 				5662E4E61EC175B500356183 /* Main.storyboard */,
 				5662E4E91EC175B500356183 /* Assets.xcassets */,
 				5662E4EB1EC175B500356183 /* LaunchScreen.storyboard */,
@@ -359,6 +364,7 @@
 				5662E5121EC1798700356183 /* LoginViewController.m in Sources */,
 				5662E4E51EC175B500356183 /* ViewController.m in Sources */,
 				5662E4E21EC175B500356183 /* AppDelegate.m in Sources */,
+				5662E5151EC17B7800356183 /* MainViewController.m in Sources */,
 				5662E4DF1EC175B500356183 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
