@@ -15,6 +15,7 @@
 		5662E4ED1EC175B500356183 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5662E4EB1EC175B500356183 /* LaunchScreen.storyboard */; };
 		5662E4F81EC175B600356183 /* KIFUITestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5662E4F71EC175B600356183 /* KIFUITestTests.m */; };
 		5662E5031EC175B600356183 /* KIFUITestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5662E5021EC175B600356183 /* KIFUITestUITests.m */; };
+		EFE510A2642A39C25032DA5C /* Pods_KIFUITestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D95E9516D02E3B388219D04F /* Pods_KIFUITestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		216A01B7760624DD088705DF /* Pods-KIFUITestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KIFUITestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KIFUITestTests/Pods-KIFUITestTests.release.xcconfig"; sourceTree = "<group>"; };
 		5662E4DA1EC175B500356183 /* KIFUITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIFUITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5662E4DE1EC175B500356183 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5662E4E01EC175B500356183 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		5662E4FE1EC175B600356183 /* KIFUITestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KIFUITestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5662E5021EC175B600356183 /* KIFUITestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIFUITestUITests.m; sourceTree = "<group>"; };
 		5662E5041EC175B600356183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3B6280DA556F6275295DDA0 /* Pods-KIFUITestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KIFUITestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KIFUITestTests/Pods-KIFUITestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D95E9516D02E3B388219D04F /* Pods_KIFUITestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KIFUITestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFE510A2642A39C25032DA5C /* Pods_KIFUITestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B025F62A30CF480478B9222 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3B6280DA556F6275295DDA0 /* Pods-KIFUITestTests.debug.xcconfig */,
+				216A01B7760624DD088705DF /* Pods-KIFUITestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5662E4D11EC175B500356183 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +99,8 @@
 				5662E4F61EC175B600356183 /* KIFUITestTests */,
 				5662E5011EC175B600356183 /* KIFUITestUITests */,
 				5662E4DB1EC175B500356183 /* Products */,
+				2B025F62A30CF480478B9222 /* Pods */,
+				D7B4E517F5BB87A385AA60AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +156,14 @@
 			path = KIFUITestUITests;
 			sourceTree = "<group>";
 		};
+		D7B4E517F5BB87A385AA60AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D95E9516D02E3B388219D04F /* Pods_KIFUITestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5662E50A1EC175B600356183 /* Build configuration list for PBXNativeTarget "KIFUITestTests" */;
 			buildPhases = (
+				4806ACFE8B0EA9A76D4BFE16 /* [CP] Check Pods Manifest.lock */,
 				5662E4EF1EC175B600356183 /* Sources */,
 				5662E4F01EC175B600356183 /* Frameworks */,
 				5662E4F11EC175B600356183 /* Resources */,
+				2F8EA28D01074E0422530658 /* [CP] Embed Pods Frameworks */,
+				B0CA96D41209FD233521F7D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,6 +297,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F8EA28D01074E0422530658 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KIFUITestTests/Pods-KIFUITestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4806ACFE8B0EA9A76D4BFE16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B0CA96D41209FD233521F7D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KIFUITestTests/Pods-KIFUITestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5662E4D61EC175B500356183 /* Sources */ = {
@@ -449,6 +524,7 @@
 		};
 		5662E50B1EC175B600356183 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3B6280DA556F6275295DDA0 /* Pods-KIFUITestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = R92MB35B2J;
@@ -462,6 +538,7 @@
 		};
 		5662E50C1EC175B600356183 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 216A01B7760624DD088705DF /* Pods-KIFUITestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = R92MB35B2J;
