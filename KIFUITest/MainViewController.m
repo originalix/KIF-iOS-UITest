@@ -12,6 +12,8 @@
 
 @property (nonatomic, strong) NSMutableArray *dataSource;
 
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+
 @end
 
 @implementation MainViewController
@@ -19,10 +21,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self initializeData];
+    [self initTableView];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+}
+
+- (void)initTableView {
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
 }
 
 - (void)initializeData {

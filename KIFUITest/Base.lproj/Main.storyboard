@@ -146,7 +146,7 @@
         <!--Main View Controller-->
         <scene sceneID="R5T-fq-6TW">
             <objects>
-                <viewController id="kEX-JF-gDI" customClass="MainViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainViewController" id="kEX-JF-gDI" customClass="MainViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="myO-Ss-Zah"/>
                         <viewControllerLayoutGuide type="bottom" id="1Ka-Dg-v8u"/>
@@ -158,10 +158,6 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KXh-oA-tl2">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <connections>
-                                    <outlet property="dataSource" destination="Ub0-ku-fac" id="jbz-Nx-VNv"/>
-                                    <outlet property="delegate" destination="Ub0-ku-fac" id="C7e-Py-lqo"/>
-                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -172,6 +168,9 @@
                             <constraint firstItem="KXh-oA-tl2" firstAttribute="leading" secondItem="Ub0-ku-fac" secondAttribute="leading" id="bfr-wo-Lp6"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="KXh-oA-tl2" id="K66-V0-b5Y"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dZR-wB-IxG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

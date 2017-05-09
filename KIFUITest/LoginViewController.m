@@ -37,7 +37,8 @@
 }
 
 - (IBAction)loginAction:(id)sender {
-    MainViewController *mainVC = [[MainViewController alloc] init];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    MainViewController *mainVC = [storyboard instantiateViewControllerWithIdentifier:@"MainViewController"];
     [self.navigationController pushViewController:mainVC animated:true];
 }
 
