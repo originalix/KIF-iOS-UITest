@@ -29,11 +29,11 @@
 
 - (void)addAccessibilityLabel {
     self.loginTextField.isAccessibilityElement = YES;
-    self.loginTextField.accessibilityLabel = @"loginTextField";
+    self.loginTextField.accessibilityLabel = @"Login User Name";
     self.passwordTextField.isAccessibilityElement = YES;
-    self.passwordTextField.accessibilityLabel = @"passwordTextField";
+    self.passwordTextField.accessibilityLabel = @"Login Password";
     self.loginBtn.isAccessibilityElement = YES;
-    self.loginTextField.accessibilityLabel = @"loginBtn";
+    self.loginBtn.accessibilityLabel = @"Log In";
 }
 
 - (IBAction)loginAction:(id)sender {

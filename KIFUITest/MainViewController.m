@@ -22,6 +22,7 @@
     [super viewDidLoad];
     [self initializeData];
     [self initTableView];
+    [self addAccessibilityLabel];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -39,6 +40,13 @@
     for (int i = 0; i < 10; i++) {
         [self.dataSource addObject:[NSString stringWithFormat:@"%d", i]];
     }
+}
+
+- (void)addAccessibilityLabel {
+    self.tableView.isAccessibilityElement = YES;
+    self.tableView.accessibilityLabel = @"tableView";
+    self.view.isAccessibilityElement = YES;
+    self.view.accessibilityLabel = @"MainView";
 }
 
 #pragma mark - tableView delegate
