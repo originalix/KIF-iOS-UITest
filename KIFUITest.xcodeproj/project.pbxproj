@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5662E4DF1EC175B500356183 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5662E4DE1EC175B500356183 /* main.m */; };
+		5662E4E21EC175B500356183 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5662E4E11EC175B500356183 /* AppDelegate.m */; };
+		5662E4E51EC175B500356183 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5662E4E41EC175B500356183 /* ViewController.m */; };
+		5662E4E81EC175B500356183 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5662E4E61EC175B500356183 /* Main.storyboard */; };
+		5662E4EA1EC175B500356183 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5662E4E91EC175B500356183 /* Assets.xcassets */; };
+		5662E4ED1EC175B500356183 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5662E4EB1EC175B500356183 /* LaunchScreen.storyboard */; };
+		5662E4F81EC175B600356183 /* KIFUITestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5662E4F71EC175B600356183 /* KIFUITestTests.m */; };
+		5662E5031EC175B600356183 /* KIFUITestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5662E5021EC175B600356183 /* KIFUITestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5662E4F41EC175B600356183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5662E4D21EC175B500356183 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5662E4D91EC175B500356183;
+			remoteInfo = KIFUITest;
+		};
+		5662E4FF1EC175B600356183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5662E4D21EC175B500356183 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5662E4D91EC175B500356183;
+			remoteInfo = KIFUITest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5662E4DA1EC175B500356183 /* KIFUITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIFUITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5662E4DE1EC175B500356183 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5662E4E01EC175B500356183 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5662E4E11EC175B500356183 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5662E4E31EC175B500356183 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5662E4E41EC175B500356183 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5662E4E71EC175B500356183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5662E4E91EC175B500356183 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5662E4EC1EC175B500356183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5662E4EE1EC175B500356183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5662E4F31EC175B600356183 /* KIFUITestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KIFUITestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5662E4F71EC175B600356183 /* KIFUITestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIFUITestTests.m; sourceTree = "<group>"; };
+		5662E4F91EC175B600356183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5662E4FE1EC175B600356183 /* KIFUITestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KIFUITestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5662E5021EC175B600356183 /* KIFUITestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIFUITestUITests.m; sourceTree = "<group>"; };
+		5662E5041EC175B600356183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5662E4D71EC175B500356183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5662E4F01EC175B600356183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5662E4FB1EC175B600356183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5662E4D11EC175B500356183 = {
+			isa = PBXGroup;
+			children = (
+				5662E4DC1EC175B500356183 /* KIFUITest */,
+				5662E4F61EC175B600356183 /* KIFUITestTests */,
+				5662E5011EC175B600356183 /* KIFUITestUITests */,
+				5662E4DB1EC175B500356183 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5662E4DB1EC175B500356183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5662E4DA1EC175B500356183 /* KIFUITest.app */,
+				5662E4F31EC175B600356183 /* KIFUITestTests.xctest */,
+				5662E4FE1EC175B600356183 /* KIFUITestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5662E4DC1EC175B500356183 /* KIFUITest */ = {
+			isa = PBXGroup;
+			children = (
+				5662E4E01EC175B500356183 /* AppDelegate.h */,
+				5662E4E11EC175B500356183 /* AppDelegate.m */,
+				5662E4E31EC175B500356183 /* ViewController.h */,
+				5662E4E41EC175B500356183 /* ViewController.m */,
+				5662E4E61EC175B500356183 /* Main.storyboard */,
+				5662E4E91EC175B500356183 /* Assets.xcassets */,
+				5662E4EB1EC175B500356183 /* LaunchScreen.storyboard */,
+				5662E4EE1EC175B500356183 /* Info.plist */,
+				5662E4DD1EC175B500356183 /* Supporting Files */,
+			);
+			path = KIFUITest;
+			sourceTree = "<group>";
+		};
+		5662E4DD1EC175B500356183 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5662E4DE1EC175B500356183 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5662E4F61EC175B600356183 /* KIFUITestTests */ = {
+			isa = PBXGroup;
+			children = (
+				5662E4F71EC175B600356183 /* KIFUITestTests.m */,
+				5662E4F91EC175B600356183 /* Info.plist */,
+			);
+			path = KIFUITestTests;
+			sourceTree = "<group>";
+		};
+		5662E5011EC175B600356183 /* KIFUITestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5662E5021EC175B600356183 /* KIFUITestUITests.m */,
+				5662E5041EC175B600356183 /* Info.plist */,
+			);
+			path = KIFUITestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5662E4D91EC175B500356183 /* KIFUITest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5662E5071EC175B600356183 /* Build configuration list for PBXNativeTarget "KIFUITest" */;
+			buildPhases = (
+				5662E4D61EC175B500356183 /* Sources */,
+				5662E4D71EC175B500356183 /* Frameworks */,
+				5662E4D81EC175B500356183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KIFUITest;
+			productName = KIFUITest;
+			productReference = 5662E4DA1EC175B500356183 /* KIFUITest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5662E4F21EC175B600356183 /* KIFUITestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5662E50A1EC175B600356183 /* Build configuration list for PBXNativeTarget "KIFUITestTests" */;
+			buildPhases = (
+				5662E4EF1EC175B600356183 /* Sources */,
+				5662E4F01EC175B600356183 /* Frameworks */,
+				5662E4F11EC175B600356183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5662E4F51EC175B600356183 /* PBXTargetDependency */,
+			);
+			name = KIFUITestTests;
+			productName = KIFUITestTests;
+			productReference = 5662E4F31EC175B600356183 /* KIFUITestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5662E4FD1EC175B600356183 /* KIFUITestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5662E50D1EC175B600356183 /* Build configuration list for PBXNativeTarget "KIFUITestUITests" */;
+			buildPhases = (
+				5662E4FA1EC175B600356183 /* Sources */,
+				5662E4FB1EC175B600356183 /* Frameworks */,
+				5662E4FC1EC175B600356183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5662E5001EC175B600356183 /* PBXTargetDependency */,
+			);
+			name = KIFUITestUITests;
+			productName = KIFUITestUITests;
+			productReference = 5662E4FE1EC175B600356183 /* KIFUITestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5662E4D21EC175B500356183 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Lix;
+				TargetAttributes = {
+					5662E4D91EC175B500356183 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = R92MB35B2J;
+						ProvisioningStyle = Automatic;
+					};
+					5662E4F21EC175B600356183 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = R92MB35B2J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5662E4D91EC175B500356183;
+					};
+					5662E4FD1EC175B600356183 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = R92MB35B2J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5662E4D91EC175B500356183;
+					};
+				};
+			};
+			buildConfigurationList = 5662E4D51EC175B500356183 /* Build configuration list for PBXProject "KIFUITest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5662E4D11EC175B500356183;
+			productRefGroup = 5662E4DB1EC175B500356183 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5662E4D91EC175B500356183 /* KIFUITest */,
+				5662E4F21EC175B600356183 /* KIFUITestTests */,
+				5662E4FD1EC175B600356183 /* KIFUITestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5662E4D81EC175B500356183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5662E4ED1EC175B500356183 /* LaunchScreen.storyboard in Resources */,
+				5662E4EA1EC175B500356183 /* Assets.xcassets in Resources */,
+				5662E4E81EC175B500356183 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5662E4F11EC175B600356183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5662E4FC1EC175B600356183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5662E4D61EC175B500356183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5662E4E51EC175B500356183 /* ViewController.m in Sources */,
+				5662E4E21EC175B500356183 /* AppDelegate.m in Sources */,
+				5662E4DF1EC175B500356183 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5662E4EF1EC175B600356183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5662E4F81EC175B600356183 /* KIFUITestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5662E4FA1EC175B600356183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5662E5031EC175B600356183 /* KIFUITestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5662E4F51EC175B600356183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5662E4D91EC175B500356183 /* KIFUITest */;
+			targetProxy = 5662E4F41EC175B600356183 /* PBXContainerItemProxy */;
+		};
+		5662E5001EC175B600356183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5662E4D91EC175B500356183 /* KIFUITest */;
+			targetProxy = 5662E4FF1EC175B600356183 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5662E4E61EC175B500356183 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5662E4E71EC175B500356183 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5662E4EB1EC175B500356183 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5662E4EC1EC175B500356183 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5662E5051EC175B600356183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5662E5061EC175B600356183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5662E5081EC175B600356183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R92MB35B2J;
+				INFOPLIST_FILE = KIFUITest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lix.KIFUITest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5662E5091EC175B600356183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R92MB35B2J;
+				INFOPLIST_FILE = KIFUITest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lix.KIFUITest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5662E50B1EC175B600356183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R92MB35B2J;
+				INFOPLIST_FILE = KIFUITestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lix.KIFUITestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KIFUITest.app/KIFUITest";
+			};
+			name = Debug;
+		};
+		5662E50C1EC175B600356183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R92MB35B2J;
+				INFOPLIST_FILE = KIFUITestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lix.KIFUITestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KIFUITest.app/KIFUITest";
+			};
+			name = Release;
+		};
+		5662E50E1EC175B600356183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = R92MB35B2J;
+				INFOPLIST_FILE = KIFUITestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lix.KIFUITestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KIFUITest;
+			};
+			name = Debug;
+		};
+		5662E50F1EC175B600356183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = R92MB35B2J;
+				INFOPLIST_FILE = KIFUITestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lix.KIFUITestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KIFUITest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5662E4D51EC175B500356183 /* Build configuration list for PBXProject "KIFUITest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5662E5051EC175B600356183 /* Debug */,
+				5662E5061EC175B600356183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5662E5071EC175B600356183 /* Build configuration list for PBXNativeTarget "KIFUITest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5662E5081EC175B600356183 /* Debug */,
+				5662E5091EC175B600356183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5662E50A1EC175B600356183 /* Build configuration list for PBXNativeTarget "KIFUITestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5662E50B1EC175B600356183 /* Debug */,
+				5662E50C1EC175B600356183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5662E50D1EC175B600356183 /* Build configuration list for PBXNativeTarget "KIFUITestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5662E50E1EC175B600356183 /* Debug */,
+				5662E50F1EC175B600356183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5662E4D21EC175B500356183 /* Project object */;
+}
