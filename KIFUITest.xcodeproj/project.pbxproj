@@ -91,6 +91,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12A7B9C993494F3C0782E977 /* KIFHelper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = KIFHelper;
+			sourceTree = "<group>";
+		};
 		2B025F62A30CF480478B9222 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +145,7 @@
 				5662E4EB1EC175B500356183 /* LaunchScreen.storyboard */,
 				5662E4EE1EC175B500356183 /* Info.plist */,
 				5662E4DD1EC175B500356183 /* Supporting Files */,
+				12A7B9C993494F3C0782E977 /* KIFHelper */,
 			);
 			path = KIFUITest;
 			sourceTree = "<group>";
