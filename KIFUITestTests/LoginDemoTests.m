@@ -42,8 +42,6 @@
     NSInteger firstCount = [tableView numberOfRowsInSection:0];
     [tester swipeRowAtIndexPath:[NSIndexPath indexPathForRow:5 inSection:0] inTableView:tableView inDirection:KIFSwipeDirectionLeft];
     [tester tapViewWithAccessibilityLabel:@"删除"];
-    NSInteger lastCount = [tableView numberOfRowsInSection:0];
-    XCTAssertTrue(firstCount == lastCount + 1);
     NSError *err = nil;
     XCTAssertTrue([tester tryFindingViewWithAccessibilityLabel:@"第6行" error:&err], @"删除cell失败");
 }
